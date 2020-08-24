@@ -1,0 +1,12 @@
+rem = 0
+sum = 0
+n =int(input("Enter any number:"))
+temp = n
+while n>0:
+             rem = n%10
+             sum = sum + rem*rem*rem
+             n = n//10
+if temp == sum:
+             print('Armstrong Number')
+else:
+             print("Not an Armstrong Number")
